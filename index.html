@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bajaj Project</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Bajaj Project</h1>
+    
+    <label for="json-input">Enter JSON:</label>
+    <textarea id="json-input" placeholder='{"data": ["A","C","z"]}' aria-labelledby="json-input"></textarea>
+    <button onclick="submitData()">Submit</button>
+
+    <label for="response-filter">Filter Response:</label>
+    <select id="response-filter">
+        <option value="numbers">Numbers</option>
+        <option value="alphabets">Alphabets</option>
+        <option value="highest_lowercase_alphabet">Highest Lowercase Alphabet</option>
+    </select>
+
+    <div id="response-output" role="alert" aria-live="polite"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
