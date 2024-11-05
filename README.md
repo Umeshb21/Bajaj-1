@@ -39,8 +39,5 @@ This project involves building a full-stack application that includes a RESTful 
 
 ### Backend Setup
 
-1. Clone the repository:
+- Clone the repository.
 
-   ```bash
-   git clone <repository-url>
-   cd backend
